@@ -12,6 +12,12 @@ class Product(commands.Cog):
 
     @commands.command()
     async def add_product(self, ctx):
+        if ctx.author.id != 1123903159346139137:
+            await ctx.send(
+                embed=nextcord.Embed(
+                    description=f"""**Sorry This Command Only For Developer**"""
+                )
+            )
         if ctx.message.attachments:
             attachment = ctx.message.attachments[0]
             if attachment.filename.lower().endswith(".json"):
