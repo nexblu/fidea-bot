@@ -30,7 +30,7 @@ class Product(commands.Cog):
                 for data in json_data:
                     async with aiohttp.ClientSession() as session:
                         async with session.post(
-                            f"{fidea_api}/e-commerce/v1/product",
+                            f"{fidea_api}/fidea/v1/product",
                             json=data,
                             headers=headers,
                         ) as response:
