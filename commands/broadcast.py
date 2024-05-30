@@ -30,6 +30,7 @@ class Broadcast(commands.Cog):
                             colour=0x00B0F4,
                         )
                     )
+                return await ctx.send(f"success send messages")
 
 
 def setup(bot):
