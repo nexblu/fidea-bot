@@ -26,7 +26,7 @@ class Broadcast(commands.Cog):
                         embed=nextcord.Embed(
                             title="Fidea Project",
                             url="https://github.com/Fidea-Ecommerce",
-                            description="halo semua selamat malam, sorry mengganggu waktunya, kami selaku tim developer fidea project mengucapkan terimakasih karena telah berpartisipasi dalam projectan kali ini, bagi kalian yang sudah membayar lebih kami mengucapkan terima kasih, kami selaku developer meminta maaf jika ada kekurangan dalam project kali ini, sekali lagi terimakasih buat kalian yang telah berpartisipasi\n\n- developer (<@1123903159346139137>, <@386168283386216451>, <@1142640378818854922>)",
+                            description=f"halo semua selamat malam {member.mention}, sorry mengganggu waktunya, kami selaku tim developer fidea project mengucapkan terimakasih karena telah berpartisipasi dalam projectan kali ini, bagi kamu yang sudah membayar lebih kami mengucapkan terima kasih banyak, kami selaku developer meminta maaf jika ada kekurangan dalam project kali ini, sekali lagi terimakasih karena telah berpartisipasi dalam projectan kali ini\n\n- developer (<@1123903159346139137>, <@386168283386216451>, <@1142640378818854922>)",
                             colour=0x00B0F4,
                         )
                     )
