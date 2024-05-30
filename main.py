@@ -10,7 +10,7 @@ bot = commands.Bot(
 )
 
 
-extensions = ["events.on_ready", "commands.product"]
+extensions = ["events.on_ready", "commands.product", "commands.broadcast"]
 
 if __name__ == "__main__":
     for ext in extensions:
